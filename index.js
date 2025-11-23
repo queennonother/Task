@@ -21,6 +21,7 @@
 // ================================
 
 function addNumbers(a, b) {
+    return a + b;
     // TODO: return the sum of a and b
 }
 
@@ -32,6 +33,7 @@ function addNumbers(a, b) {
 // ================================
 
 function isEven(n) {
+    return n % 2 === 0;
     // TODO: return true if n is even, false otherwise
 }
 
@@ -43,6 +45,7 @@ function isEven(n) {
 // ================================
 
 function findLargest(arr) {
+    return Math.max(...arrr);
     // TODO: return the largest value in arr
 }
 
@@ -55,6 +58,7 @@ function findLargest(arr) {
 // ================================
 
 function greet(name) {
+    return `Hello, ${name}!`;
     // TODO: return greeting message
 }
 
